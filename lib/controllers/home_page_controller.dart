@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:funny_number/components/result_modal_bottom_sheet.dart';
 import 'package:funny_number/models/result.dart';
-import 'package:funny_number/services/number_api.dart';
+import 'package:funny_number/services/number_api_service.dart';
 import 'package:get/get.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 

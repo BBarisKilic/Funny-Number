@@ -1,0 +1,81 @@
+name: funny_number
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.1.4
+  numberpicker: ^2.1.1
+  http: ^0.13.3
+  modal_bottom_sheet: ^2.0.0
+  flutter_svg: ^0.22.0
+  loading_indicator: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - assets/images/
+
+  fonts:
+    - family: Barlow
+      fonts:
+        - asset: assets/fonts/Barlow-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Barlow-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/Barlow-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Barlow-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Barlow-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Barlow-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Barlow-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Barlow-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Barlow-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Barlow-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Barlow-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Barlow-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Barlow-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Barlow-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Barlow-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Barlow-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Barlow-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Barlow-BlackItalic.ttf
+          weight: 900
+          style: italic
